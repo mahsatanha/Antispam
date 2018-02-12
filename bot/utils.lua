@@ -1,4 +1,4 @@
--- @BeyondTeam
+-- @dragon_guard
  local clock = os.clock
 function sleep(time)  -- seconds
   local t0 = clock()
