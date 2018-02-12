@@ -1,4 +1,4 @@
--- @BeyondTeam
+-- @dragon_guard
 local function getindex(t,id) 
 for i,v in pairs(t) do 
 if v == id then 
