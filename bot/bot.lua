@@ -16,7 +16,7 @@ JSON = (loadfile "./libs/dkjson.lua")()
 serpent = (loadfile "./libs/serpent.lua")()
 require('./bot/methods')
 require('./bot/utils')
--- @BeyondTeam
+-- @dragon_guard
 function bot_run()
 	bot = nil
 	while not bot do
@@ -130,13 +130,13 @@ local lang = redis:get(hash)
 keyboard = {}
   keyboard.inline_keyboard = {
    {
-{text= 'Beyond Team Channel' ,url = 'Telegram.Me/BeyondTeam'}
+{text= 'dragon_guard Channel' ,url = 'Telegram.Me/dragon_guard'}
 }					
 		}
 		if lang then
 		tkey = '_ابتدا در کانال تیم بیوند عضو شوید و دوباره تلاش کنید_'
 		else
-		tkey = '_First Join To_ *Beyond Team Channel* _And Try Again_'
+		tkey = '_First Join To_ *dragon_guard Channel* _And Try Again_'
 		end
       send_key(msg.chat.id, tkey, keyboard, msg.message_id, "md")
       return
