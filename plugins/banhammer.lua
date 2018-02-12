@@ -1,4 +1,4 @@
--- @BeyondTeam
+-- @dragon_guard
 local function BeyondTeam(msg, matches)
 local hash = "group_lang:"..msg.to.id
 local lang = redis:get(hash)
