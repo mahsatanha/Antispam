@@ -130,13 +130,13 @@ local lang = redis:get(hash)
 keyboard = {}
   keyboard.inline_keyboard = {
    {
-{text= 'dragon_guard Channel' ,url = 'Telegram.Me/dragon_guard'}
+{text= 'Beyond Team Channel' ,url = 'Telegram.Me/BeyondTeam'}
 }					
 		}
 		if lang then
 		tkey = '_ابتدا در کانال تیم بیوند عضو شوید و دوباره تلاش کنید_'
 		else
-		tkey = '_First Join To_ *dragon_guard Channel* _And Try Again_'
+		tkey = '_First Join To_ *Beyond Team Channel* _And Try Again_'
 		end
       send_key(msg.chat.id, tkey, keyboard, msg.message_id, "md")
       return
