@@ -1,4 +1,4 @@
--- groupmanager.lua by @BeyondTeam
+-- groupmanager.lua by @dragon_guard
 local function modadd(msg)
 local hash = "group_lang:"..msg.to.id
 local lang = redis:get(hash)
